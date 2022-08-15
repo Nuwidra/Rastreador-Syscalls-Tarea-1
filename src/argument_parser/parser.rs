@@ -2,7 +2,7 @@ use crate::argument::program_argument::ProgramArgument as ProgramArgument;
 use crate::argument::tracer_option_argument::TracerOptionArgument as TracerOptionArgument;
 use crate::argument_parser::t_parser::TParser;
 use crate::argument::t_argument::TArgument;
-
+ // Recibe una linea de texto y parsea una lista de strings con sigo una lista de argumentos
 pub struct Parser {}
 
 impl Parser {

@@ -1,6 +1,6 @@
 use crate::argument::t_argument::TArgument;
 use crate::arguments_summary::ArgumentsSummary;
-
+// Es guardar la información en la que consiste en guardar la información de los argumentos que tenga en dado caso que exista -v y -V
 pub struct TracerOptionArgument {
     pub tracer_argument_text: String
 }

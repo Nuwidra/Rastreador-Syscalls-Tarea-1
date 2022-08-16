@@ -15,7 +15,7 @@ pub struct ArgumentsSummary {
 // ======================================================================================
 // ArgumentsSummary se encargará de tomar los argumentos de agument_parser y summary
 // Para recibir una lista de argumentos y resumirlos en un objeto llamado ArgumentsSummary
-// Para que el tracer no se preocupe en los argumentos y solo llame a ArgumentsSummary de la infromación que necesita
+// Para que el tracer no se preocupe en los argumentos y solo llame a ArgumentsSummary de la información que necesita
 // ======================================================================================
 impl ArgumentsSummary {
     pub fn summarize(arguments: Vec::<Box<dyn TArgument>>) -> ArgumentsSummary {
